@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bordes_colores_imagenes</title>
+
+
+    <style>
+        #img {
+            height: 400px;
+            width: 50%;
+            margin-left: 25%;
+            background-image: url(fondogoku.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+
+        #img:hover {
+            height: 30vh;
+            width: 30vw;
+            padding: 20px;
+            margin-left: 33%;
+            background-image: url(goku2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+
+       #texto {
+
+            width: 800px;
+            text-align: center;
+            margin-left: 29%;
+            background-color: rgb(206, 223, 61);
+        }
+
+
+
+        #texto:hover {
+            -moz-column-count: 3;
+            margin-left: 29%;
+            -webkit-column-count: 3;
+            column-count: 3;
+            text-align: center;
+            width: 800px;
+            
+
+        }
+
+        #texto p:hover::first-letter {
+
+            margin-left: 29%;
+            margin-top: 60%;
+            font-size: 200%;
+            font-weight: bold;
+            font-style:oblique;
+            color: blue;
+        }
+
+
+        p {
+            text-justify: auto;
+            background-color: rgb(206, 223, 61);
+            font: rgb(34, 33, 33);
+        }
+
+
+
+
+
+
+        p:hover:nth-child(3) {
+            color: rgb(255, 0, 0);
+            background-color: rgb(111, 0, 255);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="img"></div>
+    <div id="texto">
+        <p> Fue publicado originalmente en la revista Shōnen Jump, de la editorial japonesa Shūeisha, entre 1984 y 1995.
+           ​​ Su trama describe las aventuras de Gokū, un guerrero saiyajin, cuyo fin es proteger a la Tierra de otros seres 
+            que quieren conquistarla y exterminar a la humanidad.</p>
+        <p>Conforme transcurre la trama, conoce a otros personajes que le ayudan en este propósito. 
+            El nombre de la serie proviene de unas esferas mágicas que al ser reunidas invocan a un dragón que concede deseos. 
+            En varias ocasiones resultan útiles tanto para Gokū y sus amigos como para la humanidad, 
+            aunque también son procuradas de forma constante por algunos seres malignos.</p>
+        
+        <p>El manga tuvo 519 capítulos impresos recopilados en 42 volúmenes tankōbon.
+        Dos años después de su lanzamiento, Toei Animation estrenó una adaptación anime que abarcó aproximadamente la primera mitad de la obra.
+         Una vez concluida su transmisión en 1989 por el canal Fuji Television en Japón, Toei estrenó una continuación titulada Dragon Ball Z, 
+         la cual incorporó el contenido restante del manga.</p>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+</html>
